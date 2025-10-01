@@ -14,4 +14,3 @@ else:
         m.append(text1[n][0].upper() + text1[n][1:]) 
         n += 1
     print ("Результат: ", " ".join(m))
-
