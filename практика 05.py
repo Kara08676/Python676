@@ -1,6 +1,6 @@
 # Задание 5
 text = input('введите текст, который нужно преобразовать: ')
-print(text.lower())
+print("Результат: ", text.lower())
 
 # Задание 10:
 text = input("введите текст, который нужно изменить: ") 
@@ -13,4 +13,5 @@ else:
     for i in text1:
         m.append(text1[n][0].upper() + text1[n][1:]) 
         n += 1
-    print (" ".join(m))
+    print ("Результат: ", " ".join(m))
+
