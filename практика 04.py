@@ -6,7 +6,7 @@ if n < 0:
 else:
     for i in range(1, n + 1):
         v += i**3
-    print('Ответ на задание 5:', v)
+    print('Результат: ', v)
 
 # Задание 10:
 n = int(input('введите количество чисел из ряда Фибаначи(n): '))
@@ -29,4 +29,4 @@ else:
         number1 = number2
         number2 += number_fib
         total_sum += number_fib
-    print ('ответ на задание 10:', total_sum)
+    print ('Результат: ', total_sum)
