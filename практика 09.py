@@ -1,5 +1,4 @@
 # Блок А.5
-print('ответ: ')
 def f(n):
     if n < 10:
         print (n)
@@ -7,7 +6,7 @@ def f(n):
         print (n % 10, end = ' ')
         f(n//10)
 n = int(input('введите число: '))
-f(n)
+print('ответ: ', f(n))
 
 # Блок Б.1
 def f():
@@ -21,3 +20,4 @@ def f():
         return max(x, mx)
 
 print(f'максимальное число последовательности: {f()}')
+
