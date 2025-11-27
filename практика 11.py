@@ -34,8 +34,7 @@ oper_combo.grid(column=1, row=1, padx=10, pady=10)
 num2_ent = Entry(tab1, width=15, bg='white', fg='blue')
 lbl_num2 = Label(tab1, text="Второе число:", bg='light blue', fg='dark blue', font=("Times New Roman", 12))
 lbl_num2.grid(column=0, row=2, padx=10, pady=10, sticky=W)
-num2_entry = Entry(tab1, width=15, bg='white', fg='blue')
-num2_entry.grid(column=1, row=2, padx=10, pady=10)
+num2_ent.grid(column=1, row=2, padx=10, pady=10)
 
 def calc():
     num1 = float(num1_entry.get())
@@ -121,3 +120,4 @@ window.config(menu=n_men)
 
 
 window.mainloop()
+
