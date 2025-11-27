@@ -21,8 +21,7 @@ tab_control.pack(expand=1, fill='both', padx=10, pady=10)
 num1_ent = Entry(tab1, width=15, bg='white', fg='blue')
 lbl_num1 = Label(tab1, text="Первое число:", bg='light blue', fg='dark blue', font=("Times New Roman", 12))
 lbl_num1.grid(column=0, row=0, padx=10, pady=10, sticky=W)
-num1_entry = Entry(tab1, width=15, bg='white', fg='blue')
-num1_entry.grid(column=1, row=0, padx=10, pady=10)
+num1_ent.grid(column=1, row=0, padx=10, pady=10)
 
 oper_var = StringVar()
 lbl_oper = Label(tab1, text="Операция:", bg='light blue', fg='dark blue', font=("Times New Roman", 12))
@@ -119,5 +118,6 @@ file_menu.add_separator()
 file_menu.add_command(label="Выход", command=window.quit)
 n_men.add_cascade(label="Файл", menu=file_menu)
 window.config(menu=n_men)
+
 
 window.mainloop()
